@@ -1,0 +1,366 @@
+.head {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #272727;
+}
+.head .nav {
+    position: relative;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+.head .nav .logo {
+    max-height: 60px;
+    width: auto;
+} 
+.head .nav > ul {
+    width: 63%;
+    height: 60px;
+    margin-left: 169px;
+}
+.head .nav > ul > a {
+    width: 11.6%;
+    line-height: 60px;
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+    float: left;
+    text-align: center;
+    margin-left: 34px;
+}
+.head .nav > ul > a:hover li {
+    font-weight: bolder;
+    color: #F9BE04;
+    height: 60px;
+    border-bottom: 3px solid #F9BE04;
+    box-sizing: border-box;
+}
+.search {
+    line-height: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.search select {
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    /* left: 10%; */
+    top: 38%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.search > input {
+    width: 170px;
+    height: 25px;
+    padding-left: 74px;
+    padding-right:28px;
+    border: none;
+    font-size: 15px;
+}
+.search > span {
+    display: block;
+    padding: 1px;   
+    height: 24px;
+    position: absolute;
+    /* top: 10%; */
+    left: 3%;
+    color: #707070;
+    font-size: 16px;
+    z-index: 1;
+}
+.search > div {
+    position: absolute;
+    height: 16px;
+    top: 37%;
+    left:24%;
+    border: 1px solid #CECECE;
+}
+.search #icon_drop {
+    position: absolute;
+    left: 16%;
+    top: 37%;
+}
+.search #icon_search {
+    position: absolute;
+    right: 4px;
+    top: 38%;
+}
+.content {
+    width: 80%;
+    /* height: 1000px; */
+    margin: 20px auto 0;
+}
+.content .part1 {
+   width: 100%;
+   height: 325px;
+}
+.content .part1 .swiper {
+    width: 41%;
+    height: 325px;
+    position: relative;
+    overflow: hidden;
+}
+.content .part1 .swiper ul {
+    width: 3488.03px;
+    height: 325px;
+    position: absolute;    
+}
+.content .part1 .swiper ul > li {
+    float: left;
+    position: relative;
+    width: 498.29px;
+    height: 325px;
+}
+#buttons {
+    position: absolute;
+    height:20px;
+    width:100px;
+    bottom: 60px;
+    left: 220px;
+}
+#buttons span {
+    cursor: pointer;
+    float: left;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background: #F8A102;
+    margin-left: 7px;
+}
+.content .part1 .swiper .tier {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;    
+    background-color: rgba(0,0,0,0.6);
+}
+.content .part1 .swiper .tier > span {
+    font-size: 18px;
+    color: #F8A102;
+    line-height: 21px;
+}
+.content .part1 .options {
+    width: 32%;
+    height: 320px;
+}
+.content .part1 .option {
+    margin-left: 5px;    
+    float: left;
+    width: 187px;
+    height: 160px;
+    position: relative;
+}
+
+/* 文本居中方案 */
+.content .part1 .option > .tier {
+    position: absolute;
+    display: table;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0,0,0,0.6);
+}
+.content .part1 .option > .tier > div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;   
+}
+.content .part1 .aside1 {
+    width: 25.7%;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.12);
+}
+.content .part1 .aside1 > p {
+    width: 27%;
+    height: 9%;
+    line-height:28px;
+    margin-top: 4%;
+    background: #206698; 
+    text-align: center;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.content .part1 .aside1 > div {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    line-height: 25px;
+}
+#bgColor {
+    background-color: #F9BE04;
+    color: #363636;
+}
+#y_color {
+    color: #F9BE04;
+}
+.content .part2 {
+    width: 100%;
+}
+.content .con {
+    width: 74.2%;
+    height: 600px;
+    position: relative;
+    margin-top:40px;
+}
+.content .con > p {
+    color: #363636;
+    font-size: 20px;
+    height: 28px;
+    width: 80px;
+}
+/* .content #ul_1 {
+    position: absolute;
+    top: 35px;
+}
+.content #ul_2 {
+    position: absolute;
+    margin-top: 35%;
+} */
+.content .con > ul {
+    margin-top: 35px;
+    overflow: hidden;
+}
+.content .con > ul li {
+    width: 23%;
+    height: 10%;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+.content .con > ul li > a {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.content .con > ul li > a > img {
+    width:187px;
+    height: 180px;
+}
+/* .content .con > ul li > a > span {
+
+} */
+.content .aside2 {
+    font-size: 16px;
+    width: 25.7%;
+    margin-top: 40px;
+    height: 600px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.12);
+}
+.content .aside2 > p {
+    width: 27%;
+    height: 6%;
+    line-height:32px;
+    margin-top: 4%;
+    background: #52A3FF; 
+    text-align: center;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+.content .aside2 > ul {
+    list-style: initial;
+    margin-left: 30px;
+}
+.content .aside2 > ul li {
+    margin-top: 18px;
+}
+.content .aside2 > ul li > span {
+    color: #363636;
+}
+#bColor {
+    color: #52A3FF;
+}
+.part3 {
+    width:100%; 
+    margin-top:30px;
+}
+.conTab {
+    width: 72.2%;
+    margin-top: 40px;
+}
+.conTab #tab { 
+    height:40px;
+    width: 100%;
+    border-bottom: 3px solid #F9BE04;
+}
+.conTab > #tab li {
+    float: left;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 12.5%;
+}
+.conTab > span {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #206698;
+}
+#tab li.active {
+    background: #F9BE04;
+    color:#363636;
+}
+.content_tab {
+    width: 100%;
+}
+.content_tab li {
+    float: left;
+    width: 100%;
+    height: 400px;
+    display: none;
+}
+.content_tab li > p {
+    width: 100%;
+    height: 20px;
+    margin-top: 30px;
+}
+.content_tab li > p > span {
+    margin-left: 330px;
+}
+#buttons .on {
+    width: 20px;
+    border-radius: 5px;
+}
+.foot {
+    margin-top: 60px;
+    background-color: #272727;
+    width: 100%;
+}
+.con_foot {
+    position: relative;
+    width: 80%;
+    margin: 40px auto;
+    font-size: 14px;
+    font-weight: 550;
+    color: rgba(255,255,255,0.5)
+}
+.con_foot .line {
+    margin-top: 70px;
+    opacity: 0.1;
+    border: 1px solid #FFFFFF;
+}
+.con_foot .position {
+    top: -20px;
+}
+.con_foot .about {
+    margin-top: 35px;
+}
+.mr {
+    margin-right: 100px;
+}

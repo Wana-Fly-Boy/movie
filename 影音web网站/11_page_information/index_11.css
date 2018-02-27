@@ -1,0 +1,314 @@
+.head {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #272727;
+}
+.head .nav {
+    position: relative;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+.head .nav .logo {
+    max-height: 60px;
+    width: auto;
+} 
+.head .nav > ul {
+    width: 63%;
+    height: 60px;
+    margin-left: 169px;
+}
+.head .nav > ul > a {
+    width: 11.6%;
+    line-height: 60px;
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+    float: left;
+    text-align: center;
+    margin-left: 34px;
+}
+.head .nav > ul > a:hover li {
+    font-weight: bolder;
+    color: #F9BE04;
+    height: 60px;
+    border-bottom: 3px solid #F9BE04;
+    box-sizing: border-box;
+}
+.search {
+    line-height: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.search select {
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    /* left: 10%; */
+    top: 38%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.search > input {
+    width: 170px;
+    height: 25px;
+    padding-left: 74px;
+    padding-right:28px;
+    border: none;
+    font-size: 15px;
+}
+.search > span {
+    display: block;
+    padding: 1px;   
+    height: 24px;
+    position: absolute;
+    /* top: 10%; */
+    left: 3%;
+    color: #707070;
+    font-size: 16px;
+    z-index: 1;
+}
+.search > div {
+    position: absolute;
+    height: 16px;
+    top: 37%;
+    left:24%;
+    border: 1px solid #CECECE;
+}
+.search #icon_drop {
+    position: absolute;
+    left: 16%;
+    top: 34%;
+}
+.search #icon_search {
+    position: absolute;
+    right: 4px;
+    top: 38%;
+}
+.content {
+    width: 80%;
+    position: relative;
+    margin: 20px auto 0;
+    height:auto;
+}
+.content > p {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #363636;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+.content .con_article {
+    width: 75%;
+    height: auto;
+    margin-bottom: 30px;    
+}
+.content .con_article .article  {
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.content .con_article .article .title_line {
+    width: 100%;
+    border: 0.5px solid #AEAEAE;
+    margin-top: 30px;
+}
+.content .con_article .article  .title {
+    font-size: 18px;
+    line-height: 25px;
+    height: 25px;
+    color: #363636;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center; 
+}
+.content .con_article .article  .title_about {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #AEAEAE;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+}
+.content  .con_article .article  .title_con {
+    font-family: PingFangSC-Regular;
+    height: auto;
+    margin: 40px 70px;
+    font-size: 15px;
+    color: #181818;
+    line-height: 25px;
+}
+.content .con_article .article .title_con img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.content .con_article .article .title_article {
+    width: 90%;
+    margin: 0 auto;
+}
+.content .con_article .article .title_article > span {
+    display: inline-block;
+    margin-top: 40px;
+}
+.content .con_article .article .title_article > .indent {
+    text-indent: 2em;
+}
+.content .con_article .article .demo {
+    width: 100%;
+    height: 200px;
+}
+.content .con_article .article .demo img {
+    width: 200px;
+    height: 200px;  
+    display: block;
+    margin: 0 auto;
+}
+.content .con_article .tab {
+    width: 93%;
+    height: 20px;
+    line-height: 20px;
+    margin: 60px auto 10px;
+    color: #206698;
+    font-size: 14px;
+}
+.content .con_article .tab .after {
+    display: inline-block;
+    margin-left: 760px;
+}
+.content .con {
+    width: 76%;
+    height: 600px;
+    position: relative;
+    margin-top:40px;
+    margin-bottom: 100px;
+}
+.content .con > p {
+    color: #363636;
+    font-size: 20px;
+    height: 28px;
+    width: 80px;
+}
+.content #ul_1 {
+    width: 100%;
+    position: absolute;
+    top: 35px;
+}
+.content #ul_2 {
+    position: absolute;
+    margin-top: 35%;
+}
+.content .con > ul {
+    margin-top: 35px;
+    overflow: hidden;
+}
+.content .con > ul li {
+    width: 23%;
+    height: 10%;
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 14px;
+}
+.content .con > ul li > a {
+    display: block;
+    padding: 13px;
+    width: 100%;
+    height: 100%;
+}
+.content .con > ul li > a > img {
+    width:187px;
+    height: 180px;
+}
+.content .con > ul li > a > span {
+    display: block;
+    height: 50px;
+    width: 187px;
+}
+.content .online {
+    width: 23%;
+    height: 50px;
+    margin-top: 20px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F9BE04;
+}
+/* vertical-align 真好用 */
+.content .online img {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.content .online span {
+    vertical-align: middle;
+}
+.content .aside2 {
+    font-size: 16px;
+    width: 23%;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.12);
+}
+.content .aside2 > p {
+    width: 27%;
+    height: 6%;
+    line-height:32px;
+    margin-top: 4%;
+    background: #206698;
+    text-align: center;
+    color: #FFFFFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+.content .aside2 > ul {
+    list-style: initial;
+    margin-left: 30px;
+}
+.content .aside2 > ul li {
+    margin-top: 14px;
+}
+.content .aside2 > ul li > span {
+    color: #363636;
+}
+#bColor {
+    color:#206698;
+    font-size: 20px;
+}
+#bColor li > span {
+    font-size: 16px;
+}
+.foot {
+    margin-top: 60px;
+    background-color: #272727;
+    width: 100%;
+}
+.con_foot {
+    position: relative;
+    width: 80%;
+    margin: 40px auto;
+    font-size: 14px;
+    font-weight: 550;
+    color: rgba(255,255,255,0.5)
+}
+.con_foot .line {
+    margin-top: 70px;
+    opacity: 0.1;
+    border: 1px solid #FFFFFF;
+}
+.con_foot .position {
+    top: -20px;
+}
+.con_foot .about {
+    margin-top: 35px;
+}
+.mr {
+    margin-right: 100px;
+}
